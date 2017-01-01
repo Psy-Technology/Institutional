@@ -4,15 +4,16 @@
 img {max-width: 100%;}
 a {text-decoration: none;}
 h2 {font-size: 1.5em; color: #333;}
+h3 {font-size: 1.1em; color: #333;}
 p {font-size: 1em; color:#777;}
 
 /* Cabeçalho */
 
 .cabecalho {width: 100%; float: left; padding: 10px 5%; background-color: #87CEEB;}
-.logo a {width: 120px; height: 140px; float: left; background: url(../img/Logo1.png) no-repeat; background-size: 120px; font-size: 0;}
+.logo a {width: 120px; height: 120px; float: left; background: url(../img/Logo.png) no-repeat; background-size: 120px; font-size: 0;}
 .imagens-menu img {width: 120px; float: left;}
 
-#css3 {width: 54px; margin: 0px 0px 0px 20%;}
+#css3 {width: 54px; margin: 0px 0px 0px 25%;}
 #html5 {width: 120px; margin: 0px 0px 0px 5%;}
 #javascript {width:64px; margin: -5px 0px 0px 5%;}
 
@@ -33,4 +34,13 @@ p {font-size: 1em; color:#777;}
 
 /* Principal */
 
-.principal {width: 100%; float: left; padding: 20px 8%;}
+.principal {width: 100%; margin: auto; padding: 20px 8%;}
+.principal section {margin-left: 200px}
+.principal img {width: 50%; float:left; margin: 20px 15px 15px 0;}
+.principal h2 {margin-top: 20px; margin-bottom: 20px;}
+.principal h3 {margin-bottom: 5px;}
+.principal p {text-align: justify; text-indent: 15px;}
+#sobre {width:70%; float:left; padding: 0 20px 20px 0;}
+#servicos { width: 70%; float: left;}
+#web-developer {float: right; margin-top: 60px; padding: 0 0 10px 15px;}
+#social-media {float: right; margin-top: 60px; padding: 0 0 10px 15px;}
